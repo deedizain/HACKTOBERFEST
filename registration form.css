@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid black;
+    margin: 10px;
+}
+#box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#box1{
+    width:50vw;
+    margin-left: 10px;
+}
+#box2{
+    width:50vw;
+}
+#box1{
+    font-size: 25px;
+}
+input{
+    background-color:lightblue;
+    padding: 10px;
+}
+input[type=text],[type=tel],[type=email]{
+    width:30vw;
+}
+input[type=radio]{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+input[type=checkbox]{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+#box2 label{
+    font-size: 25px;
+}
+input::placeholder{
+    color: black;
+    font-size:15px;
+}
+input[value]{
+    color: #000;
+    font-size: 20px;
+}
+#box2 label[for]{
+    font-size: 22px;
+    margin: 20px;
+}
+select{
+    padding:5px;
+    margin-left: 20px;
+    background-color: lightblue;
+}
+#box3{
+    text-align: center;
+}
+input[type=submit],[type=reset]{
+    margin:10px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border:2px solid black;
+    outline: none;
+    cursor: pointer;
+}
+#session+select{
+    margin-top: 50px;
+}
